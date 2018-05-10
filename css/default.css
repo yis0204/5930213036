@@ -1,0 +1,259 @@
+.mySlides{
+  width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url('image/p3.jpg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.thumbnail{
+    height: 500px;
+    width: 500px;
+}
+
+  @media (min-width: 768px) {
+    section {
+      padding: 150px 0;
+    }
+  }
+  
+  #mainNav {
+    background-color :rgb(101, 101, 101);
+    opacity: 0.7;
+    }
+   
+    #mainNav .navbar-toggler {
+      font-size: 12px;
+      right: 0;
+      padding: 13px;
+      text-transform: uppercase;
+      color : white;  
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    
+    #mainNav .navbar-brand {
+      color: #ffffff;
+      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    } 
+    
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #040403;
+    }
+    
+    #mainNav .navbar-nav .nav-item .nav-link {
+      font-size: 100%;
+      font-weight: 400;
+      padding: 0.75em 0;
+      letter-spacing: 1px;
+      color: white;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #a7a7a7;
+    }
+    
+    @media (min-width: 992px) {
+      #mainNav {
+        padding-top: 25px;
+        padding-bottom: 10px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+      }
+      #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+      #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+      }
+      #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #f5f5f5;
+      }
+      #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+
+
+.btn{
+    display: inline-block;
+    border: 2px rgb(252, 252, 252) solid;
+    padding: 10px ;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    transition: 0.5s;
+}
+    .btn-primary:hover {
+        background: rgb(204, 204, 204);
+        color : rgb(255, 255, 255);
+    }
+
+
+#detail{
+    margin-top: 200px;
+}
+
+.outt { display: none; }
+
+.leftLs, .leftLst {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  left: 0;
+  width: 40px;
+  height: 100px;
+  box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+
+}
+
+.rightLs, .rightLst {
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 40px;
+  height: 100px;
+  box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+
+}
+
+.resCarousel {
+
+  float: left;
+  overflow: hidden;
+  padding: 0 15px;
+  width: 100%;
+
+}
+
+.resCarousel-inner {
+
+  transition: 1s ease all;
+  float: left;
+
+}
+.rating-static {
+  width: 60px;
+  height: 16px;
+  display: block;
+  background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+}.rating-static {
+  width: 60px;
+  height: 16px;
+  display: block;
+  background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+}
+.rating-50 { background-position: 0 0; }
+.rating-40 { background-position: -12px 0; } 
+.rating-30 { background-position: -24px 0; }
+.rating-20 { background-position: -36px 0; }
+.rating-10 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+ 
+.rating-1  { background-position: -48px -16px; }
+.rating-11 { background-position: -36px -16px; }
+.rating-21 { background-position: -24px -16px; }
+.rating-31 { background-position: -12px -16px; }
+.rating-41 { background-position: 0 -16px; }
+
+.rating-2  { background-position: -48px -16px; }
+.rating-12 { background-position: -36px -16px; }
+.rating-22 { background-position: -24px -16px; }
+.rating-32 { background-position: -12px -16px; }
+.rating-42 { background-position: 0 -16px; }
+
+.rating-3  { background-position: -48px -16px; }
+.rating-13 { background-position: -36px -16px; }
+.rating-23 { background-position: -24px -16px; }
+.rating-33 { background-position: -12px -16px; }
+.rating-43 { background-position: 0 -16px; }
+
+.rating-4  { background-position: -48px -16px; }
+.rating-14 { background-position: -36px -16px; }
+.rating-24 { background-position: -24px -16px; }
+.rating-34 { background-position: -12px -16px; }
+.rating-44 { background-position: 0 -16px; }
+
+.rating-5  { background-position: -48px -16px; }
+.rating-15 { background-position: -36px -16px; }
+.rating-25 { background-position: -24px -16px; }
+.rating-35 { background-position: -12px -16px; }
+.rating-45 { background-position: 0 -16px; }
+
+.rating-6  { background-position: -48px -16px; }
+.rating-16 { background-position: -36px -16px; }
+.rating-26 { background-position: -24px -16px; }
+.rating-36 { background-position: -12px -16px; }
+.rating-46 { background-position: 0 -16px; }
+
+.rating-7  { background-position: -48px -16px; }
+.rating-17 { background-position: -36px -16px; }
+.rating-27 { background-position: -24px -16px; }
+.rating-37 { background-position: -12px -16px; }
+.rating-47 { background-position: 0 -16px; }
+
+.rating-8  { background-position: -48px -16px; }
+.rating-18 { background-position: -36px -16px; }
+.rating-28 { background-position: -24px -16px; }
+.rating-38 { background-position: -12px -16px; }
+.rating-48 { background-position: 0 -16px; }
+
+.rating-9  { background-position: -48px -16px; }
+.rating-19 { background-position: -36px -16px; }
+.rating-29 { background-position: -24px -16px; }
+.rating-39 { background-position: -12px -16px; }
+.rating-49 { background-position: 0 -16px; }
+
+.carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item  + .carousel-item {
+   width: 33.3%;
+   height: 300px;
+   display: block;
+   float:left;
+   
+} 
+
+#dee{
+  margin-left: 400px;
+}
+
+.back{
+  border: 0;
+    padding: 20px;
+    min-height: 63px;
+    background:rgb(253, 214, 214) ;
+    font-family: 'Itim', cursive;
+    box-shadow: none;
+    border-radius: 10px;
+    position: relative;
+    max-height: 100000px;
+    border-bottom: 2px solid gray;
+}
